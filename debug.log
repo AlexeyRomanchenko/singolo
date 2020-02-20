@@ -1,6 +1,0 @@
-[0219/163707.169:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: Системе не удается найти указанный путь. (0x3)
-[0219/163707.174:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
-[0219/163707.175:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: Системе не удается найти указанный путь. (0x3)
-[0219/164719.335:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: Системе не удается найти указанный путь. (0x3)
-[0219/164719.336:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
-[0219/164719.337:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: Системе не удается найти указанный путь. (0x3)
