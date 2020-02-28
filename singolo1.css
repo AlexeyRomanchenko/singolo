@@ -101,13 +101,24 @@ html, body {
   position: absolute;
 }
 .phone__default {
-    left: 105px;
-    top: 53px;
+  left: 105px;
+  top: 53px;
 }
 .phone__inverse {
   right: 120px;
   top: 174px;
 }
+.arrow-left {
+  cursor: pointer;
+  left: 33px;
+  top: 281px;
+}
+.arrow-right {
+  cursor: pointer;
+  right: 47px;
+  top: 281px;
+}
+
 /*Hero end*/
 
 /*Services start*/
