@@ -156,7 +156,6 @@ html, body {
 }
 .services__block__article {
   width: 300px;
-  min-height: 50px;
   margin: 45px 10px 0;
   display: flex;
 }
