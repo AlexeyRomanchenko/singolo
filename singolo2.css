@@ -114,4 +114,50 @@ html, body {
   word-spacing: -0.3px;
   line-height: 1.6em;
 }
+
+.about__profile {
+  margin-top: 47px;
+  display: flex;
+}
+.about__profile__item {
+  margin-left: 17px;
+  margin-right: 20px;
+  width: 300px;
+}
+.about__profile__item:first-child {
+  margin: 0;
+}
+.about__profile__item:last-child {
+  margin: 0;
+}
+.about__profile .first_photo {
+  margin-left: -2px;
+}
+.about__profile .last_photo {
+  margin-left: 1px;
+}
+.about__profile__heading {
+  padding: 13px 0 0 0;
+  margin-left: -1px;
+  color: #666d89;
+  font-size: 18px;
+  font-family: "Lato-Black", Arial, sans-serif;
+}
+.about__profile__text {
+  line-height: 2.1rem;
+  padding-top: 9px;
+  font-size: 12px;
+  color: #767e9e;
+  font-family: "Lato-Regular", Arial, sans-serif;
+}
+.about__socials {
+  margin-top: 23px;
+}
+.about__socials .about__socials__image {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.about__profile .about__profile__item:not(:first-child) .about__socials .about__socials__image {
+  margin-right: 6px;
+}
 /*About us styles*/
