@@ -142,7 +142,8 @@ html, body {
   font-size: 12px;
   font-family: "Lato", Arial, sans-serif;
  }
- .contacts__block__phone {
+ .contacts__block__phone, 
+ .contacts__block__email {
    color: #f0d8d9;
    text-decoration: none;
  }
@@ -155,6 +156,18 @@ html, body {
  .contacts__mail-wrapper {
   line-height: 20px;
   margin-left: -2px;
+ }
+ .contacts__location-wrapper {
+   margin-top: -2px;
+ }
+ .contacts__block__adress {
+   margin-left: 11px;
+ }
+ .contacts__phone-wrapper {
+  margin-top: 1px; 
+ }
+ .contacts__block__phone {
+   margin-left: 7px;
  }
 /*Feedback end*/
 
@@ -176,6 +189,7 @@ html, body {
   width: 50%;
   text-align: right;
   margin-top: 22px;
+  cursor: pointer;
 }
 .socials__image {
   margin-left: 5px;
