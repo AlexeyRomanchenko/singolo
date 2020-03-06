@@ -19,9 +19,10 @@ html, body {
 }
 /*Common styles*/
 .wrapper {
-  width: 1020px;
+  max-width: 940px;
   margin: 0 auto;
   display: flex;
+  padding: 0 40px 0;
 }
 /*Common styles*/
 
@@ -34,8 +35,8 @@ html, body {
   border-bottom: 6px solid #323746;
 }
 .logo {
-  margin: 28px 0 0 32px;
   display: inline-block;
+  margin: 28px 0 0 1px;
 }
 .logo__heading {
   display:inline-block;
@@ -51,18 +52,17 @@ html, body {
   color: #f06c64;
 }
 .logo__anchor {
-  color: #ffffff;
   text-decoration: none;
+  color: #ffffff;
 }
 .nav {
   margin-left: auto;
 }
 .nav__list {
+  margin: 42px -1px 0 0;
   color:#ffffff;
-  margin: 42px 47px 0 0;
   list-style: none;
 }
-
 .nav__list__item {
   float: left;
   text-transform: uppercase;
@@ -72,10 +72,10 @@ html, body {
 }
 .nav__list__item:not(:first-child):before {
   content: "\00b7";
-  color: #494e62;
   display: inline-block; 
   width: 1em;
   margin-left: -1.3em;
+  color: #494e62;
 }
 .nav__list__item:hover,
 .nav__list__item .active {
@@ -101,29 +101,28 @@ html, body {
   position: absolute;
 }
 .phone__default {
-  left: 105px;
+  left: 112px;
   top: 53px;
 }
 .phone__inverse {
-  right: 120px;
+  right: 111px;
   top: 174px;
 }
 .arrow-left {
-  cursor: pointer;
-  left: 33px;
+  left: 42px;
   top: 281px;
+  cursor: pointer;
 }
 .arrow-right {
-  cursor: pointer;
-  right: 47px;
+  right: 40px;
   top: 281px;
+  cursor: pointer;
 }
-
 /*Hero end*/
 
 /*Services start*/
 .services {
-  height: 495px;
+  height: 494px;
   background-color: #f2f2f2;
   border-bottom: 6px solid #ffffff;
 }
@@ -131,28 +130,28 @@ html, body {
   display: block;
 }
 .services__heading {
-  padding: 59px 12px 0 32px;
+  padding: 59px 12px 0 0;
   font-size: 30px;
-  color: #666d89;
   font-family: "Lato-Black", Arial, sans-serif;
+  color: #666d89;
 }
 .services__subtitle {
+  padding: 18px 0 0 1px;
   font-size: 18px;
-  color: #767e9e;
   font-family: "Lato-Light", Arial, sans-serif;
-  padding: 18px 0 0 33px;
+  color: #767e9e;
   line-height: 1.7em;
   word-spacing: -0.2872px;
 }
 .services__block {
   width: 975px;
   margin: 0 auto 0;
+  margin-left: -10px;
   padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  flex-wrap: wrap; 
-
+  flex-wrap: wrap;
 }
 .services__block__article {
   width: 300px;
@@ -169,9 +168,9 @@ html, body {
   margin-left: 21px;
 }
 .services__article__subheader {
+  margin: -2px 0 0 0;
   font-family: "Lato-Black", Arial, sans-serif;
   font-size: 18px;
-  margin: -2px 0 0 0;
   color: #666d89;
   letter-spacing: 0.1px;
 }
@@ -179,12 +178,12 @@ html, body {
   letter-spacing: 0.2px;
 }
 .services__article__paragraph {
+  margin: 8px 0 0 0;
   font-family: "Lato", Arial, sans-serif;
   font-size: 12px;
+  font-stretch: extra-expanded;
   color: #767e9e;
   line-height: 1.83em;
-  margin: 8px 0 0 0;
   letter-spacing: 0;
-  font-stretch: extra-expanded;
 }
 /*Services end*/
