@@ -29,10 +29,10 @@ html, body {
 
 /*Feedback start*/
 .feedback-form {
-  background-color: #f06c64;
-  border-bottom: 6px solid #ea676b;
   height: 589px;
   padding-top: 59px;
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
 }
 .feedback-form__title {
   color: #f0d8d9;
@@ -40,10 +40,10 @@ html, body {
   font-size: 30px;
 }
 .feedback-form__subtitle {
+  margin-top: 20px;
   color: #f0d8d9;
   font-family: "Lato-Light", Arial, sans-serif;
   font-size: 18px;
-  margin-top: 20px;
   line-height: 2.8rem;
   word-spacing: -0.5px;
 }
@@ -66,10 +66,9 @@ html, body {
   font-family: "Lato-Black", Arial, sans-serif;
 }
 .contacts__info__subtitle {
-  line-height: 2.2rem;
   margin-top: 8px;
   margin-left: 18px;
-
+  line-height: 2.2rem;
   color: #f0d8d9;
   font-size: 12px;
   font-family: "Lato", Arial, sans-serif;
@@ -105,13 +104,13 @@ html, body {
   color: #f48c8f;
 }
 .contacts__textarea {
-  background-color: #d6564f;
-  border: 0;
   width: 604px;
   padding-left: 14px;
   padding-top: 10px;
   margin-top: 16px;
   height: 192px;
+  background-color: #d6564f;
+  border: 0;
   border-radius: 5px;
   font-size: 12px;
   font-family: "Lato", Arial, sans-serif;
@@ -128,11 +127,11 @@ html, body {
   color: #f48c8f;
 }
 .contacts__submit-button {
-  background-color: #d6564f;
   width: 200px;
-  border: 0;
   height: 30px;
   margin-top: 16px;
+  background-color: #d6564f;
+  border: 0;
   color: #f0d8d9;
   font-family: "Lato-Black", Arial, sans-serif;
 }
@@ -142,20 +141,20 @@ html, body {
   font-size: 12px;
   font-family: "Lato", Arial, sans-serif;
  }
- .contacts__block__phone, 
- .contacts__block__email {
-   color: #f0d8d9;
-   text-decoration: none;
+.contacts__block__phone, 
+.contacts__block__email {
+  text-decoration: none; 
+  color: #f0d8d9;
  }
- .contacts__phone-wrapper {
-   line-height: 25px;
+.contacts__phone-wrapper {
+  line-height: 25px;
  }
- .contacts__mail__image {
+.contacts__mail__image {
   margin-right: 7px;
  }
- .contacts__mail-wrapper {
-  line-height: 20px;
+.contacts__mail-wrapper {
   margin-left: -2px;
+  line-height: 20px;
  }
  .contacts__location-wrapper {
    margin-top: -2px;
@@ -173,8 +172,8 @@ html, body {
 
 /*Footer start*/
 .footer {
-  background-color: #2d303a;
   height: 76px;
+  background-color: #2d303a;
 }
 .footer__copyright {
   float: left;
@@ -185,10 +184,10 @@ html, body {
   font-family: "Lato", Arial, sans-serif;
 }
 .socials {
+  margin-top: 22px;
   float: right;
   width: 50%;
   text-align: right;
-  margin-top: 22px;
   cursor: pointer;
 }
 .socials__image {
