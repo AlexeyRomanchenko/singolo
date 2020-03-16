@@ -9,6 +9,18 @@ window.onload = () => {
       this.className += " active";
     });
   }
+// implement onclick functionality to phones
+  let vertical_phone = document.querySelector('.phone__default');
+  vertical_phone.addEventListener('click', () => {
+    let shadow = document.querySelector('.vert');
+    shadow.classList.contains('visible') ? shadow.classList.remove('visible'): shadow.classList.add('visible');
+  });
+  let horizontal_phone = document.querySelector('.phone__inverse');
+  horizontal_phone.addEventListener('click', () => {
+    let shadow = document.querySelector('.horizontal');
+    shadow.classList.contains('visible') ? shadow.classList.remove('visible'): shadow.classList.add('visible');
+  });
+
   // implement active class to selected portfolio buttons
   const groupBtns = document.querySelector(".group_buttons");
   const btns = groupBtns.getElementsByClassName("portfolio__group_buttons__button");

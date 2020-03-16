@@ -125,6 +125,28 @@ html, body {
   top: 281px;
   cursor: pointer;
 }
+.shadow {
+  position: absolute;
+  width: 188px;
+  height: 333px;
+  background: #000000;
+  z-index: 2;
+
+}
+.vert {
+  display: none;
+  left: 126px;
+  top: 118px;
+}
+.horizontal {
+  display: none;
+  transform: rotate(90deg);
+  right: 274px;
+  top: 116px;
+}
+.visible {
+  display: block;
+}
 /*Hero end*/
 
 /*Services start*/
