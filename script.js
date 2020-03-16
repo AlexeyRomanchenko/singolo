@@ -21,6 +21,23 @@ window.onload = () => {
     shadow.classList.contains('visible') ? shadow.classList.remove('visible'): shadow.classList.add('visible');
   });
 
+  //implement slider functionality
+
+  let arrows = document.querySelectorAll('.arrow');
+  for (let i = 0; i < arrows.length; i++) {
+    arrows[i].addEventListener('click', () => {
+      let sec_slider = document.querySelector('.slide2');
+      let hero = document.querySelector('.hero');
+      if (sec_slider.classList.contains('visible')) {
+        sec_slider.classList.remove('visible');
+        hero.classList.remove('coloured');
+      } else {
+        sec_slider.classList.add('visible');
+        hero.classList.add('coloured');
+      } 
+      console.log('clicked');
+    });
+  }
   // implement active class to selected portfolio buttons
   const groupBtns = document.querySelector(".group_buttons");
   const btns = groupBtns.getElementsByClassName("portfolio__group_buttons__button");
