@@ -9,7 +9,44 @@ window.onload = () => {
       this.className += " active";
     });
   }
+  // implement active class to selected portfolio buttons
+  const groupBtns = document.querySelector(".group_buttons");
+  const btns = groupBtns.getElementsByClassName("portfolio__group_buttons__button");
+  for (var i = 0; i < btns.length; i++) {
+    
+    btns[i].addEventListener("click", function() {
+      const imageWrapper = document.querySelector('.portfolio__work_list');
+      const images = imageWrapper.querySelectorAll('.portfolio__work_list_item');
+      shuffle(images, imageWrapper);
+      let current = document.getElementsByClassName("selected");
+      current[0].className = current[0].className.replace(" selected", "");
+      this.className += " selected";
+    });
+  }
 
+
+  function shuffle(array, wrapper) {
+    while (wrapper.firstChild) {
+      wrapper.removeChild(wrapper.lastChild);
+    }
+    const newArr = Array.from(array).sort(() => Math.random() - 0.5).map((el, i) => {
+      el.classList.remove("first");
+      el.classList.remove("last");
+      if (i === 0 || i === 4 || i === 8 ) {
+        el.className += " first"
+      }
+      if (i === 3 || i === 7 || i === 11 ) {
+        el.className += " last"
+      }
+      return el;
+    });
+
+    newArr.map(e => {
+      wrapper.appendChild(e);
+    });
+  }
+
+ 
   // implement form data handling and insert into modal window
   const form = document.getElementById("form");
   form.addEventListener('submit', function(event) {
