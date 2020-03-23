@@ -3,10 +3,13 @@ window.onload = () => {
   const nav = document.getElementById("nav");
   const navs = nav.getElementsByClassName("nav__list__a");
   for (var i = 0; i < navs.length; i++) {
-    navs[i].addEventListener("click", function() {
+    navs[i].addEventListener("click", function(event) {
       let current = document.getElementsByClassName("active");
       current[0].className = current[0].className.replace(" active", "");
       this.className += " active";
+      event.preventDefault();
+      const container = document.getElementById(this.dataset.anchor);
+      container.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
     });
   }
 // implement onclick functionality to phones
