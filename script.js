@@ -98,6 +98,7 @@ window.onload = () => {
     function ClosePopup() {
       modal.style.display = "none";
       content.removeChild(paragraph);
+      document.getElementById('form').reset();
     }
     const closeBtn = document.querySelector('.close');
     closeBtn.onclick = function() {
